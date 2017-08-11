@@ -8,7 +8,8 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build": "electron-packager . aug-11 --all --ignore=node_modules/electron-*"
   },
   "keywords": [],
   "author": "brianamarie",
@@ -52,6 +53,7 @@
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "electron-packager": "^8.7.2",
     "electron-prebuilt-compile": "1.7.5",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.1.0",
